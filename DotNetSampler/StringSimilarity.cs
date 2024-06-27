@@ -8,6 +8,7 @@ namespace DotNetSampler
 {
     internal class StringSimilarity
     {
+        // this is from https://en.wikipedia.org/wiki/Levenshtein_distance
         public static int LevenshteinDistance(string s1, string s2)
         {
             int[,] d = new int[s1.Length + 1, s2.Length + 1];

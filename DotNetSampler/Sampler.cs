@@ -18,7 +18,7 @@ namespace DotNetSampler
           For example, RelativeToCommonBase("/home/daniel/memes", "/home/daniel/work") should
           produce "/home/daniel".
 
-        ADDED BY RAHUL - Example is incorrect, the expected out in this case is "work"
+        ADDED BY RAHUL - Example is incorrect, the expected output in this case is "work"
         */
         public static String RelativeToCommonBase(String path1, String path2)
         {
